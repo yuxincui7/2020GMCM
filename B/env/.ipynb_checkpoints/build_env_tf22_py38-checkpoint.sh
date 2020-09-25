@@ -15,6 +15,7 @@ conda install openpyxl
 curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
 pip install auto-sklearn
 pip install arff
+pip install catboost
 conda install jupyter
 python -m ipykernel install --user --name tf22_py38 --display-name tf22_py38
 cd 
