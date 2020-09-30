@@ -10,6 +10,7 @@ B: B题"汽油辛烷值建模"的全部代码，包括数据处理、寻找主�
 - [安装](#安装)
 - [题目](#题目)
 - [使用](#使用)
+- [致谢](#致谢)
 
 ## 安装
 
@@ -42,3 +43,8 @@ $ ./build_env_tf22_py38.sh
 4. 代码'feature_select_rf_multi.ipynb'表示在预测多标签（'Product_RON_loss', 'Product_S_content', 'Product_RON'）情况下，采用随机森林筛选出来的30个主要操作变量。
 
 5. 代码'multi_output_model_select.ipynb'在预测多标签情况下，选择了一种MSE最小的模型，为Ridge；代码'multi_output_testset_generate.ipynb'通过1中的操作变量的取值范围以及Δ值生成了测试的数据，代码'model_visualization.ipynb'通过生成的测试数据来预测'Product_RON_loss', 'Product_S_content'，'Product_RON'，并可视化。
+
+
+## 致谢
+
+感谢付碧阳同学在准备面试的同时还为我们送饭，以及感谢我的两个队友，胡晨茜负责论文撰写，郑雷和我负责代码编程。不得不说整个过程都很快乐，希望以后也能有此机会。
